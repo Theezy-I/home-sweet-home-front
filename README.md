@@ -1,16 +1,34 @@
-# React + Vite
+# 🏰 Home Sweet Home (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório frontend do **Home Sweet Home**, a plataforma definitiva para locação de propriedades exclusivas e de altíssimo padrão. 
 
-Currently, two official plugins are available:
+Desenvolvido como Projeto Integrador, este sistema simula uma arquitetura de locação no estilo Airbnb, com foco em UI/UX moderna, regras de negócios reais (cálculos de diárias e hóspedes) e integração com banco de dados em nuvem.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+##  Tecnologias Utilizadas (Tech Stack)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React (com Vite):** Construção da interface com alta performance.
+* **JavaScript (ES6+):** Lógica de negócios e cálculos de estado.
+* **Bootstrap 5:** Estilização responsiva, cards e sistema de grid.
+* **Supabase:** Backend-as-a-Service (BaaS) para comunicação com o banco de dados PostgreSQL.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+##  Funcionalidades Implementadas
+
+- [x] **Vitrine Dinâmica:** Listagem de imóveis puxados em tempo real do banco de dados.
+- [x] **Calculadora de Reservas:** Sistema que calcula o valor total baseado na diferença de datas (check-in/checkout).
+- [x] **Seletor de Hóspedes Avançado:** Menu flutuante que aplica taxas extras (ex: +20% na diária caso passe de 2 hóspedes).
+- [x] **Catálogo do Anfitrião:** Roteamento dinâmico que exibe todas as propriedades de um locador específico.
+- [x] **Dashboard de Autenticação:** Sistema de Login, Cadastro e Painel do Usuário (Meus Anúncios).
+
+---
+
+## 💻 Guia de Instalação (Como rodar localmente)
+
+Para testar o projeto na sua máquina, siga os passos abaixo:
+
+1. **Clone este repositório:**
+   ```bash
+   git clone [https://github.com/SEU-USUARIO/home-sweet-home-front.git](https://github.com/SEU-USUARIO/home-sweet-home-front.git)
