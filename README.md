@@ -30,5 +30,25 @@ Desenvolvido como Projeto Integrador, este sistema simula uma arquitetura de loc
 Para testar o projeto na sua máquina, siga os passos abaixo:
 
 1. **Clone este repositório:**
-   ```bash
+   ```
    git clone [https://github.com/SEU-USUARIO/home-sweet-home-front.git](https://github.com/SEU-USUARIO/home-sweet-home-front.git)
+   ```
+
+2. Acesse a pasta do projeto:
+   ```
+   cd home-sweet-home-front
+   ```
+3. Instale as dependências (recrie a pasta node_modules):
+   ```
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```
+   npm run dev
+   ```
+5. Acesse no navegador: O terminal fornecerá um link (geralmente http://localhost:5173). Clique nele para abrir a aplicação.
+
+*(Nota: Lembre-se de trocar o `SEU-USUARIO` ali no link de clone pelo seu nome de usuário real do GitHub).*
+
+---
+   
